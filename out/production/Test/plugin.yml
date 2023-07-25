@@ -1,0 +1,17 @@
+name: Hubs
+main: hubs.hub.hubs.main
+version: 1.0.1
+api: [1.0.9]
+
+author: hubs
+
+commands:
+  hub:
+    permission: command.Hubs.hub
+    description: "§l§3返回主城~"
+    usage: "/hub"
+permissions:
+  command.Hubs.hub:
+    default: true
+
+
